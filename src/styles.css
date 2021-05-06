@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.purple {
+    background-color: #34245C;
+}
+
+.purple-text {
+    color: #34245C;
+}
+
+.red {
+    background-color: #F55F4F;
+}
+
+.red-text {
+    color: #F55F4F;
+}
+
+.black {
+    background-color: #343233;
+}
+
+.black-text{
+    color: #343233;
+}
+
+.principal {
+    background-color: #FAFAFB;
+}
+
+.principal-text {
+    color: #FAFAFB;
+}
+
+.shadow {
+    background-color: #F9F9FA;
+}
+
+.shadow-text {
+    color: #F9F9FA;
+}
+
+.light {
+    background-color: #FFFFFF;
+}
+
+.light-text {
+    color: #FFFFFF;
+}
+
+.btn {
+    background-color: #34245C;
+    color: #FFFFFF;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-style: none;
+    height: 58px;
+    width: 192px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 25px;
+    cursor: pointer !important;
+}
+
+

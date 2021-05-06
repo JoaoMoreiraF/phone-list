@@ -1,0 +1,16 @@
+nav {
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid #D7D7DF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label.title{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  padding: 0 30px;
+}

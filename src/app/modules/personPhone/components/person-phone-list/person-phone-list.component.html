@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>Phone Numbers</h2>
+  <ul class="list-numbers">
+    <li *ngFor="let person of listOfPerson">
+      <div class="card-container light">
+        <div class="upper-container">
+            <div class="image-container">
+              <img  src="../../../../../assets/icons/whatsAppIcon.png" alt="">
+            </div>
+            <div class="chip-card">
+              <p class="chip-text purple-text">Phone</p>
+            </div>
+        </div>
+        <div class="lower-container">
+            <div class="title">
+                <span>{{person.name}}</span>
+            </div>
+            <div class="phones-text" >
+                <span><b>Phone:</b> {{person.phone}}</span>
+                <br>
+                <span><b>Operadora:</b> {{person.phoneNumberType}}</span>
+            </div>
+            <div class="btn-actions">
+                <button class="btn-get-in-touch purple light-text" (click)="getInTouch(person.phone)">Entrar em contato</button>
+            </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+

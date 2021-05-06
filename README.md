@@ -1,3 +1,9 @@
+# Used Concepts
+
+1. Modular Design: Important for the scalability, making it much easier to structure large applications
+2. Clean Mockups
+3. Clean Architecture
+4. Angular Best Practices
 # PersonPhone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
